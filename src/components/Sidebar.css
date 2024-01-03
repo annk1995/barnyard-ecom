@@ -1,0 +1,39 @@
+#barn {
+    background-color: rgb(214, 187, 153);
+    max-width: 20rem;
+    width: 100%;
+}
+
+span {
+    color: rgb(39, 24, 4);
+}
+
+i {
+    color: rgb(39, 24, 4);
+}
+
+#title {
+    font-size: 50px;
+}
+
+span {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    color: rgb(39, 24, 4);
+    font-style: bold;
+    font-size: 52px;
+}
+
+ul {
+    line-height: 5em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #barn {
+        max-width: 100%;
+    }
+}
